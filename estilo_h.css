@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #fff url(../imagens/bg.png);
+	margin: 15px;
+}
+/*area do topo*/
+#container{
+	border: 1px red solid;
+	background: #ede9cc;
+	min-width: 740px;
+	max-width: 1400;
+	margin: 0 auto;
+}
+#topo{
+	position: relative;
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+}
+.logo a{
+	position: absolute;
+	top: 35px;
+	left: 15px;
+	z-index: 3;
+	width: 151px;
+	height: 66px;
+	/*text-indent: -9000px;/*tag para acessibilidade de leitores de tela*/
+	color: #fff;
+	
+	
+	  
+}
+#area-logo{
+	position: absolute;
+	background: url(../imagem/fundo_seo1.png) no-repeat;
+	width: 100%;
+	height: 250px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	
+}
+#area-menu{
+	position: absolute;
+	background: url(../imagem/topo-imagem-lateral.png);
+	width: 450px;
+	height: 250px;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+#conteudo-menu{
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+#menu_icones_top{
+	position: relative;
+	/*border-bottom: 1px solid #9581ee;
+	border-top: 1px solid #a19af5;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -15px;
+	color: azure;
+	transform: translate(-0%, -10%);
+		
+	
+}
+#dados{
+	margin-top: 0;
+}
+#pessoal li p,a {
+	
+	text-decoration: none;
+	font-size: 15px;
+	color: azure;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	
+}
+ol li{
+	list-style: none;
+	
+}
+h1 p{
+	font-size: 2em;
+	
+	color: azure;
+}
