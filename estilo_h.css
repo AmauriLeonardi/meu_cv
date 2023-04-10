@@ -1,14 +1,16 @@
 *{
 	padding: 0;
 	margin: 0;
+	
 
 }
 body{
 	font-family: Helvetica, "Trebuchet MS", sans-serif;
-	background: #fff url(../imagens/bg.png);
+	background: #000000 url(../imagens/bg.png);
 	margin: 15px;
 }
-/*area do topo*/
+/*area do topo
+******************************************/
 #container{
 	border: 1px red solid;
 	background: #ede9cc;
@@ -77,10 +79,11 @@ body{
 #pessoal li p,a {
 	
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14px;
 	color: azure;
 	line-height: 1.5em;
 	text-transform: uppercase;
+	
 	
 }
 ol li{
@@ -89,6 +92,83 @@ ol li{
 }
 h1 p{
 	font-size: 2em;
-	
+	padding: 15px 0 0 15px;
 	color: azure;
+}
+/*area skills
+******************************************/
+#area {
+	color: #000000;
+	
+}
+
+.area {
+	text-align: center;
+	font-size: 2.9em;
+	margin-top: 100px;
+}
+.area2 {
+	padding: 0px 0 15px 15px;
+}
+
+#area-principal{
+	
+	float: left;
+	width: 50%;
+	margin-top: 40px;
+}
+#area-skills{
+	
+	float: right;
+	width: 50%;
+	margin-top: 40px;
+
+}
+/*grafico de skills
+***********************************/
+.base_graf_Em_Busca {
+    width: 100%; /*tamanho lateral do grafico*/
+    background-color: aliceblue;
+    height: 100px; /*altura do grafico, proporcional a 10 itens*/
+	
+}
+.Busca_nome {
+    width: 37%;
+    background-color: antiquewhite;
+    height: 33px; /*se alterar altura, alterar também altura da tabela*/
+    float: left;
+}
+.Busca_valor {
+    width: 75%;
+    background-color: azure;
+    height: 33px; /*altura igual a da classe Busca_nome*/
+    float: right;
+}
+.Busca_nome_centralizado {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.insert_busca_width {
+    background-color: rgb(30, 12, 110);
+    height: 25px;
+    color: rgb(230, 217, 217);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+	
+}
+/*competencia academicas
+********************************************************/
+#competencia h2{
+	text-align: center;
+	color: #000000;
+	padding: 100px 0 10px 0;	
+	font-size: 36px;
+	clear: both;
+}
+#competencia p{
+	color: #000000;
 }
