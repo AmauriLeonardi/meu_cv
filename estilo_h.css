@@ -17,6 +17,7 @@ body{
 	min-width: 740px;
 	max-width: 1400;
 	margin: 0 auto;
+	height: auto;
 }
 #topo{
 	position: relative;
@@ -108,9 +109,20 @@ h1 p{
 	margin-top: 100px;
 }
 .area2 {
-	padding: 0px 0 15px 15px;
+	padding: -10px 0 15px 15px;
+	
 }
-
+.area2 h1{
+	padding: 0 0 15px 15px;
+	font-size: 26px;
+	
+}
+#foto{
+	float: left;
+	padding: 5px 5px 5px 5px;
+	border: 5px #d8d3f5 solid;
+	background: #d8d3f5;
+}
 #area-principal{
 	
 	float: left;
@@ -133,15 +145,15 @@ h1 p{
 	
 }
 .Busca_nome {
-    width: 37%;
+    width: 35%;
     background-color: antiquewhite;
-    height: 33px; /*se alterar altura, alterar também altura da tabela*/
+    height: 35px; /*se alterar altura, alterar também altura da tabela*/
     float: left;
 }
 .Busca_valor {
-    width: 75%;
+    width: 70%;
     background-color: azure;
-    height: 33px; /*altura igual a da classe Busca_nome*/
+    height: 35px; /*altura igual a da classe Busca_nome*/
     float: right;
 }
 .Busca_nome_centralizado {
@@ -162,15 +174,85 @@ h1 p{
 }
 /*competencia academicas
 ********************************************************/
-#competencia h2{
-	text-align: center;
+#competencia {
 	color: #000000;
 	padding: 100px 0 10px 0;	
-	font-size: 36px;
 	clear: both;
+	margin-top: 10px;
+	width: 100%;
+	
 }
+#competencia h2{
+	font-size: 36px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.coluna-1 {
+	float: left;
+	width: 47%;
+	padding: 10px 10px 20px 10px;
+	border: 5px #F5F5DC solid;
+	
+	
+}
+.coluna-2 {
+	float: right;
+	width: 47%;
+	background:#F5DEB3;
+	padding: 10px 10px 20px 10px;	
+	border: 5px #F5F5DC solid;
+	
+	
+}
+
+
 #competencia p{
 	color: #000000;
+}
+/*realizações e o video
+*********************************************************/
+
+/*Link não visitado */
+a:link {
+  color: green;
+  text-decoration: none;
+  
+}
+
+/*Link já visitado*/
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+/*Quando o mouse passa por cima*/
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+/*Link ativo/selecionado*/
+a:active {
+  color: yellow;
+  text-decoration: none;
+}
+#Real h2 {
+	font-size: 36px;
+	text-align: center;
+	margin: 50px;
+	color: #000000;
+	padding: 50px 10px 10px 10px;
+	clear: both;
+	
+}
+.real1{
+	padding: 15px 15px 15px 15px;
+	color: #000000;
+	
+}
+.real2{
+text-align: center;
 }
 
 
