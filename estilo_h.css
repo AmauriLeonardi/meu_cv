@@ -172,7 +172,7 @@ h1 p{
     font-size: 16px;
 	
 }
-/*competencia academicas
+/*competencia academicas 
 ********************************************************/
 #competencia {
 	color: #000000;
@@ -249,10 +249,52 @@ a:active {
 .real1{
 	padding: 15px 15px 15px 15px;
 	color: #000000;
+	text-transform: uppercase;
+	text-align: center;
 	
 }
 .real2{
 text-align: center;
+}
+
+/*experiencia profissional*/
+#experiencia{
+	color: #000000;
+	padding: 100px 0 10px 0;	
+	clear: both;
+	margin-top: 10px;
+	width: 100%;
+}
+#experiencia h2{
+	font-size: 36px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.coluna-3{
+	float: left;
+	width: 47%;
+	padding: 5px 20px 5px 5px;
+	border: 5px #F5F5DC solid;
+	
+}
+.coluna-4{
+	float: right;
+	width: 47%;
+	background:#F5DEB3;
+	padding: 5px 10px 5px 5px;
+	border: 5px #F5F5DC solid;
+	
+}
+.primeira{
+	font-weight: bold;
+	margin-top: 15px;
+}
+.ultima{
+	margin-bottom: 100px;
+}
+li{
+	list-style: none;
 }
 
 
@@ -263,5 +305,6 @@ text-align: center;
 	clear: both;
 	text-align: center;
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 100px;
+	padding: 10px 0 10px 0;
 }
